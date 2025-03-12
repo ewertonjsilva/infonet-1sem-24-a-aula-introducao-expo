@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native'; 
+import { StyleSheet, View } from 'react-native'; 
 
 import Constants from 'expo-constants';
 
@@ -7,12 +7,12 @@ import Constants from 'expo-constants';
 import Exemplo1 from './src/exemplos/ex-01';
 
 // Atividades
-
+import Atividade1 from './src/atividades/atividade-01';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo1 />
+      <Atividade1 />
       <StatusBar style="light" />
     </View>
   );
@@ -21,7 +21,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',     
+    backgroundColor: 'deepskyblue',     
     // alignItems: 'center',
     // justifyContent: 'center', 
     padding: 8,
