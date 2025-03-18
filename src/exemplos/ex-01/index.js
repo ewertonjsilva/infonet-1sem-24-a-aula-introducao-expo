@@ -1,4 +1,4 @@
-import { View, Text  } from 'react-native'; 
+import { View, Text } from 'react-native'; 
 
 import styles from './styles'; 
 
@@ -12,3 +12,4 @@ function Exemplo1 () {
 }
 
 export default Exemplo1;
+

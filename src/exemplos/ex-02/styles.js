@@ -24,9 +24,12 @@ const styles = StyleSheet.create({
         textAlignVertical: 'center', 
         borderRadius: 20,
     }, 
-    texto: {
-        fontSize: RFPercentage(2.2),  
-    }, 
+    imagem: {
+        // height: RFPercentage(10), 
+        // width: RFPercentage(28), 
+        width: '80%',  
+        resizeMode: 'contain', 
+    },
 });
 
 export default styles;
