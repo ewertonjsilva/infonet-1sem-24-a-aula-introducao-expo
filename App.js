@@ -9,12 +9,15 @@ import Exemplo2 from './src/exemplos/ex-02';
 
 // Atividades
 import Atividade1 from './src/atividades/atividade-01';
-import Atividade2 from './src/atividades/atividade-02';
+import Atividade2 from './src/atividades/atividade-02'; 
+
+// Correções
+import CorrAtividade2 from './src/correcao/corr_atividade-02';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade2 />
+      <CorrAtividade2 />
       <StatusBar style="light" />
     </View>
   );
