@@ -15,6 +15,7 @@ function Exemplo2 () {
             <Mensagem titulo={'ERRO'}>Você não clicou corretamente!</Mensagem>
             <Mensagem titulo={'SUCESSO'}>Acesso permitido</Mensagem>
             <Mensagem titulo={'AVISO'}>O tempo acabou!</Mensagem>
+            
         </View>
     );
 }

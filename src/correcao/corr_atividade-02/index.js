@@ -17,7 +17,8 @@ function CorrAtividade2() {
             <Text style={styles.titulo}>Atividade 2</Text>
 
             {dados.map(item =>
-                <Card
+                <Card 
+                    key={item.nome}
                     nome={item.nome}
                     descricao={item.descricao}
                     preco={item.preco}
