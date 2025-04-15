@@ -29,10 +29,26 @@ const styles = StyleSheet.create({
     }, 
     input: {
         borderWidth: RFPercentage(0.2), 
+        borderColor: 'deepskyblue', 
         width: '100%', 
         fontSize: RFPercentage(2), 
         margin: RFPercentage(2), 
         borderRadius: RFPercentage(2), 
+    }, 
+    botao: {
+        backgroundColor: 'deepskyblue', 
+        width: '70%', 
+        // height: RFPercentage(4), 
+        borderRadius: RFPercentage(2), 
+        alignItems: 'center', 
+        justifyContent: 'center', 
+        padding: RFPercentage(1),
+    }, 
+    txtBotao: {
+        fontSize: RFPercentage(2), 
+        color: '#fafafa', 
+        fontWeight: 'bold', 
+        letterSpacing: 1.5,
     },
 });
 
