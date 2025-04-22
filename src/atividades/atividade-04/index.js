@@ -16,6 +16,8 @@ function Atividade4 () {
     }
 
     const handleExibeNome = () => {
+        // setNomeCompleto(nome + ' ' +  sobrenome);
+        // setNomeCompleto(nome, sobrenome);
         setNomeCompleto(`${nome} ${sobrenome}`);
         setNome('');
         setSobrenome('');
@@ -43,7 +45,7 @@ function Atividade4 () {
 
             <TouchableOpacity 
                 style={styles.botao} 
-                onPress={handleExibeNome}
+                onPress={() => handleExibeNome()}
             >
                 <Text style={styles.txtBotao}>
                     Exibir nome completo
