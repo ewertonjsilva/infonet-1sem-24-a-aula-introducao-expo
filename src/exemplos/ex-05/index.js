@@ -40,7 +40,7 @@ export default function Exemplo5() {
                 onFocus={() => setIsFocusN1(true)}
                 onBlur={() => setIsFocusN1(false)}
                 onChangeText={(num1) => setN1(num1)}
-                value={n1}
+                value={n1.toString()}
             // keyboardType='numeric'
 
             />
@@ -64,7 +64,7 @@ export default function Exemplo5() {
                 onFocus={() => setIsFocusN2(true)}
                 onBlur={() => setIsFocusN2(false)}
                 onChangeText={(num2) => setN2(num2)}
-                value={n2}
+                value={n2.toString()}
             />
 
             <Text style={[styles.txtSaida, { margin: 0 }]}> = </Text>
