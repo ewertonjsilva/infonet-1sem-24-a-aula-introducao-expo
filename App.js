@@ -14,16 +14,18 @@ import Exemplo5 from './src/exemplos/ex-05';
 import Atividade1 from './src/atividades/atividade-01';
 import Atividade2 from './src/atividades/atividade-02'; 
 import Atividade3 from './src/atividades/atividade-03';
-import Atividade4 from './src/atividades/atividade-04';
+import Atividade4 from './src/atividades/atividade-04'; 
+import Atividade5 from './src/atividades/atividade-05';
 
 // Correções
 import CorrAtividade2 from './src/correcao/corr_atividade-02';
-import CorrecaoAtv3 from './src/correcao/correcao_atividade-03';
+import CorrecaoAtv3 from './src/correcao/correcao_atividade-03'; 
+import Atividade5Corr from './src/correcao/corr_atividade-05';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo5 />
+      <Atividade5Corr />
       <StatusBar style="light" />
     </View>
   );

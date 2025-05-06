@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
       width: '100%', 
     }, 
     buttonTouch: {
-        backgroundColor: 'deepskyblue', 
+        backgroundColor: '#fff', 
     }, 
     textButton: {
       fontSize: RFValue(28), 
