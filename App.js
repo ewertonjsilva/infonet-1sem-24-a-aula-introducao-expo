@@ -20,6 +20,7 @@ import Atividade3 from './src/atividades/atividade-03';
 import Atividade4 from './src/atividades/atividade-04'; 
 import Atividade5 from './src/atividades/atividade-05';
 import Atividade6 from './src/atividades/atividade-06'; 
+import Atividade8 from './src/atividades/atividade-08';
 
 // Correções
 import CorrAtividade2 from './src/correcao/corr_atividade-02';
