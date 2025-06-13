@@ -4,7 +4,8 @@ import { RFValue } from 'react-native-responsive-fontsize';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignItems: 'center'
+        alignItems: 'center', 
+        backgroundColor: 'deepskyblue', 
     },
     titulo: {
         fontSize: RFValue(20),
